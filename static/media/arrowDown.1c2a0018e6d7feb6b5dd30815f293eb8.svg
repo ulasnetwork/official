@@ -1,0 +1,19 @@
+var _path;
+
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgArrowDown = function SvgArrowDown(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    viewBox: "0 0 28 36",
+    fill: "currentColor",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M15.5 2a1.5 1.5 0 0 0-3 0h3ZM14 34l-1.06 1.06a1.5 1.5 0 0 0 2.12 0L14 34Zm13.06-10.94a1.5 1.5 0 0 0-2.12-2.12l2.12 2.12Zm-24-2.12a1.5 1.5 0 0 0-2.12 2.12l2.12-2.12ZM12.5 2v32h3V2h-3Zm2.56 33.06 12-12-2.12-2.12-12 12 2.12 2.12Zm0-2.12-12-12-2.12 2.12 12 12 2.12-2.12Z"
+  })));
+};
+
+export default SvgArrowDown;

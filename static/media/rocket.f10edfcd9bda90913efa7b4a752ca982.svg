@@ -1,0 +1,34 @@
+var _path, _path2, _path3, _circle;
+
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgRocket = function SvgRocket(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: "1em",
+    height: "1em",
+    viewBox: "0 0 14 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M7.004 19.285 7 19.289l-.004-.004c-.213-.221-.495-.527-.775-.87a7.874 7.874 0 0 1-.753-1.072c-.207-.367-.3-.654-.3-.844a1.833 1.833 0 0 1 3.664 0c0 .19-.093.478-.3.845-.199.354-.47.726-.753 1.07-.28.344-.563.65-.775.87Z",
+    stroke: "#FB6D05"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M1.11 15.6C.483 12.948 2.696 9.695 3.88 8.4L5.8 11.828 1.11 15.6ZM12.89 15.6c.626-2.652-1.587-5.905-2.771-7.2L8.2 11.828l4.69 3.772Z",
+    stroke: "#FB6D05",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M9.072 15.5H4.928C4.073 13.976 3.5 11.583 3.5 8.85c0-2.168.361-4.132.944-5.617.351-.896.775-1.594 1.227-2.06C6.121.706 6.572.5 7 .5c.428 0 .878.207 1.33.672.451.467.875 1.165 1.226 2.06.583 1.486.944 3.45.944 5.618 0 2.733-.573 5.126-1.428 6.65Z",
+    fill: "#151515",
+    stroke: "#FB6D05"
+  })), _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 7.225,
+    cy: 7.014,
+    r: 0.924,
+    stroke: "#FB6D05"
+  })));
+};
+
+export default SvgRocket;

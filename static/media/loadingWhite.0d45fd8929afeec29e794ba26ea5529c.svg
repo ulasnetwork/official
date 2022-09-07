@@ -1,0 +1,20 @@
+var _path;
+
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+import * as React from "react";
+
+var SvgLoadingWhite = function SvgLoadingWhite(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: "loadingWhite_svg__icon",
+    viewBox: "0 0 1024 1024",
+    xmlns: "http://www.w3.org/2000/svg",
+    width: "1em",
+    height: "1em"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M270.4 214.4C336 160 420 128 512 128c212 0 384 172 384 384h64c0-247.2-200.8-448-448-448-107.2 0-205.6 37.6-282.4 100l40.8 50.4z",
+    fill: "#fff"
+  })));
+};
+
+export default SvgLoadingWhite;
